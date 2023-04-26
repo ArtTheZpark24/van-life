@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+nav > a{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+   
+    nav {
+        
+   
+        display: flex;
+        font-family: sans-serif;
+       margin: 7px;
+       height: 25px;
+        
+    }
+    nav > h1{
+       
+        width: 500px;
+    }
+    nav > a{
+        margin: 5px;
+        font-size: 15px;
+       margin-top: 10px ;
+       font-weight: bold;
+       color: black;
+       
+    }
+    .home-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       display: flex;
+       margin-top: 10%;
+       background-color: #857446;
+           
+     
+    }
+    .van{
+      width: 350px;
+      margin-top: 20px;
+
+    }
+    .h1-van{
+        font-family: sans-serif;
+        font-size: 20px;
+        margin-left: 10px;
+        font-weight: bold;
+    }
+    .p-van , p{
+        font-family: sans-serif;
+        margin: 0px  10px 0px 10px;
+    }
+    p{
+        margin-top: 20px;
+    }
+    .distination{
+        flex-direction: column;
+        font-family: sans-serif;
+        width: 300px;
+        background-color: #ffbb00;
+        margin-top: 20px;
+        padding: 10px;
+        text-align: center;
+    }
+    .distination > .btn-explore{
+        color: white;
+        background-color: #150717;
+        border: none;
+        padding: 7px;
+        height: 40px;
+        width: 200px;
+        border-radius: 3px;
+    }
+    .footer-container{
+        margin-top: 200px;
+        width: 300px;
+        background-color: #0f0e1f;
+        height: 50px;
+        color: white;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 10px;
+    }
+   
+    }
